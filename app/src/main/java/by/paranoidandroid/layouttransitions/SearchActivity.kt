@@ -11,14 +11,14 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 
-class SearchAcitivity: Activity() {
+class SearchActivity: Activity() {
     var searchView: SearchView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_search)
 
-        searchView = findViewById<SearchView?>(R.id.search_view)
+        searchView = findViewById<SearchView>(R.id.search_view)
 
         /*val searchViewIcon: ImageView = findViewById(android.support.v7.appcompat.R.id.search_mag_icon) as ImageView
         val linearLayoutSearchView = searchViewIcon.parent as ViewGroup

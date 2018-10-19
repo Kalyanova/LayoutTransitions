@@ -28,7 +28,7 @@ class MainActivity: Activity() {
             animateTransition()
         }
         btnSearchActivity.setOnClickListener {
-            val intent = Intent(this, SearchAcitivity::class.java)
+            val intent = Intent(this, SearchActivity::class.java)
             startActivity(intent)
         }
         btnSharedAnimationActivity.setOnClickListener {
