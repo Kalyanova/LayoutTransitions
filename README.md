@@ -1,4 +1,4 @@
-The simple application that demonstrate simple animation transitions.
+The application that demonstrates simple animation transitions.
 
 <ul>This application shows animations described in two articles:
 
