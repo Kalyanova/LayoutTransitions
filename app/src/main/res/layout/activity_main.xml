@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/master_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5">
+
+    <Button
+        android:id="@+id/btn_animate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btn_animate" />
+
+    <Button
+        android:id="@+id/btn_search_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btn_search_activity" />
+
+    <Button
+        android:id="@+id/btn_shared_animation_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btn_shared_animation_activity" />
+
+    <TextView
+        android:id="@+id/title"
+        android:transitionName="@string/text_transition_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1.5"
+        android:text="@string/label_title" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:transitionName="@string/image_transition_name"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:src="@drawable/city_placeholder" />
+
+    <FrameLayout
+        android:id="@+id/scene_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/scene_a" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LayoutTransitions</string>
+
+    <string name="label_title">Transitions</string>
+    <string name="label_text1">Text 1</string>
+    <string name="label_text2">Text 2</string>
+    <string name="label_search_result">Search result</string>
+
+    <string name="btn_animate">Animate</string>
+    <string name="btn_search_activity">Start Search Activity</string>
+    <string name="btn_shared_animation_activity">Shared Animation Activity</string>
+
+    <string name="text_transition_name">texttransiton</string>
+    <string name="image_transition_name">imagetransiton</string>
+</resources>
